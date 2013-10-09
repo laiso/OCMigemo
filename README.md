@@ -3,7 +3,7 @@ OCMigemo
 
 Migemo Text Search (http://0xcc.net/migemo/ ) for Objective-C
 
-![](https://raw.github.com/laiso/Ti-HatenaNotify/master/Documents/ScreenShot.png)
+![](https://raw.github.com/laiso/OCMigemo/master/Documents/ScreenShot.png)
 
 ```objc:
 #import <OCMigemo/OCMigemo.h>
