@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0758285C1803FC1C006358BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0758285B1803FC1C006358BE /* Foundation.framework */; };
+		075828611803FC1C006358BE /* OCMigemo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 075828601803FC1C006358BE /* OCMigemo.h */; };
+		075828631803FC1C006358BE /* OCMigemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 075828621803FC1C006358BE /* OCMigemo.m */; };
+		0758286A1803FC1C006358BE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075828691803FC1C006358BE /* XCTest.framework */; };
+		0758286B1803FC1C006358BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0758285B1803FC1C006358BE /* Foundation.framework */; };
+		0758286D1803FC1C006358BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0758286C1803FC1C006358BE /* UIKit.framework */; };
+		075828701803FC1C006358BE /* libOCMigemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 075828581803FC1C006358BE /* libOCMigemo.a */; };
+		075828761803FC1C006358BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 075828741803FC1C006358BE /* InfoPlist.strings */; };
+		075828781803FC1C006358BE /* OCMigemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 075828771803FC1C006358BE /* OCMigemoTests.m */; };
+		075828AF1803FFF0006358BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0758285B1803FC1C006358BE /* Foundation.framework */; };
+		075828B11803FFF0006358BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 075828B01803FFF0006358BE /* CoreGraphics.framework */; };
+		075828B81803FFF0006358BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 075828B61803FFF0006358BE /* InfoPlist.strings */; };
+		075828BA1803FFF0006358BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 075828B91803FFF0006358BE /* main.m */; };
+		075828BE1803FFF0006358BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 075828BD1803FFF0006358BE /* AppDelegate.m */; };
+		075828C01803FFF0006358BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075828BF1803FFF0006358BE /* Images.xcassets */; };
+		075828DB180400D7006358BE /* libOCMigemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 075828581803FC1C006358BE /* libOCMigemo.a */; };
+		075828E8180439B4006358BE /* NSString+Migemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 075828E7180439B4006358BE /* NSString+Migemo.m */; };
+		0758296A18043C0F006358BE /* charset.c in Sources */ = {isa = PBXBuildFile; fileRef = 0758292B18043C0F006358BE /* charset.c */; };
+		0758296C18043C0F006358BE /* filename.c in Sources */ = {isa = PBXBuildFile; fileRef = 0758292F18043C0F006358BE /* filename.c */; };
+		0758296E18043C0F006358BE /* migemo.c in Sources */ = {isa = PBXBuildFile; fileRef = 0758293218043C0F006358BE /* migemo.c */; };
+		0758296F18043C0F006358BE /* mnode.c in Sources */ = {isa = PBXBuildFile; fileRef = 0758293618043C0F006358BE /* mnode.c */; };
+		0758297018043C0F006358BE /* romaji.c in Sources */ = {isa = PBXBuildFile; fileRef = 0758293918043C0F006358BE /* romaji.c */; };
+		0758297118043C0F006358BE /* rxgen.c in Sources */ = {isa = PBXBuildFile; fileRef = 0758293B18043C0F006358BE /* rxgen.c */; };
+		0758297518043C0F006358BE /* wordbuf.c in Sources */ = {isa = PBXBuildFile; fileRef = 0758294218043C0F006358BE /* wordbuf.c */; };
+		0758297618043C0F006358BE /* wordlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 0758294418043C0F006358BE /* wordlist.c */; };
+		07C530C21804CE2700B13C71 /* OCMigemo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07C530C01804CC6A00B13C71 /* OCMigemo.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0758286E1803FC1C006358BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 075828501803FC1C006358BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 075828571803FC1C006358BE;
+			remoteInfo = OCMigemo;
+		};
+		075828D918040047006358BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 075828501803FC1C006358BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 075828571803FC1C006358BE;
+			remoteInfo = OCMigemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		075828561803FC1C006358BE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				075828611803FC1C006358BE /* OCMigemo.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		075828581803FC1C006358BE /* libOCMigemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOCMigemo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0758285B1803FC1C006358BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0758285F1803FC1C006358BE /* OCMigemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCMigemo-Prefix.pch"; sourceTree = "<group>"; };
+		075828601803FC1C006358BE /* OCMigemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMigemo.h; sourceTree = "<group>"; };
+		075828621803FC1C006358BE /* OCMigemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMigemo.m; sourceTree = "<group>"; };
+		075828681803FC1C006358BE /* OCMigemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCMigemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		075828691803FC1C006358BE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0758286C1803FC1C006358BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		075828731803FC1C006358BE /* OCMigemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCMigemoTests-Info.plist"; sourceTree = "<group>"; };
+		075828751803FC1C006358BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		075828771803FC1C006358BE /* OCMigemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMigemoTests.m; sourceTree = "<group>"; };
+		075828AE1803FFF0006358BE /* OCMigemo-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OCMigemo-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		075828B01803FFF0006358BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		075828B51803FFF0006358BE /* OCMigemo-Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCMigemo-Example-Info.plist"; sourceTree = "<group>"; };
+		075828B71803FFF0006358BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		075828B91803FFF0006358BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		075828BB1803FFF0006358BE /* OCMigemo-Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCMigemo-Example-Prefix.pch"; sourceTree = "<group>"; };
+		075828BC1803FFF0006358BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		075828BD1803FFF0006358BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		075828BF1803FFF0006358BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		075828E218041315006358BE /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		075828E6180439B4006358BE /* NSString+Migemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Migemo.h"; sourceTree = "<group>"; };
+		075828E7180439B4006358BE /* NSString+Migemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Migemo.m"; sourceTree = "<group>"; };
+		0758292B18043C0F006358BE /* charset.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = charset.c; sourceTree = "<group>"; };
+		0758292C18043C0F006358BE /* charset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = charset.h; sourceTree = "<group>"; };
+		0758292D18043C0F006358BE /* dbg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dbg.h; sourceTree = "<group>"; };
+		0758292F18043C0F006358BE /* filename.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = filename.c; sourceTree = "<group>"; };
+		0758293018043C0F006358BE /* filename.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filename.h; sourceTree = "<group>"; };
+		0758293218043C0F006358BE /* migemo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = migemo.c; sourceTree = "<group>"; };
+		0758293418043C0F006358BE /* migemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = migemo.h; sourceTree = "<group>"; };
+		0758293618043C0F006358BE /* mnode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mnode.c; sourceTree = "<group>"; };
+		0758293718043C0F006358BE /* mnode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mnode.h; sourceTree = "<group>"; };
+		0758293818043C0F006358BE /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resource.h; sourceTree = "<group>"; };
+		0758293918043C0F006358BE /* romaji.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = romaji.c; sourceTree = "<group>"; };
+		0758293A18043C0F006358BE /* romaji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = romaji.h; sourceTree = "<group>"; };
+		0758293B18043C0F006358BE /* rxgen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rxgen.c; sourceTree = "<group>"; };
+		0758293C18043C0F006358BE /* rxgen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rxgen.h; sourceTree = "<group>"; };
+		0758294218043C0F006358BE /* wordbuf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wordbuf.c; sourceTree = "<group>"; };
+		0758294318043C0F006358BE /* wordbuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordbuf.h; sourceTree = "<group>"; };
+		0758294418043C0F006358BE /* wordlist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wordlist.c; sourceTree = "<group>"; };
+		0758294518043C0F006358BE /* wordlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wordlist.h; sourceTree = "<group>"; };
+		07C530C01804CC6A00B13C71 /* OCMigemo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = OCMigemo.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		075828551803FC1C006358BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0758285C1803FC1C006358BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075828651803FC1C006358BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0758286A1803FC1C006358BE /* XCTest.framework in Frameworks */,
+				0758286D1803FC1C006358BE /* UIKit.framework in Frameworks */,
+				0758286B1803FC1C006358BE /* Foundation.framework in Frameworks */,
+				075828701803FC1C006358BE /* libOCMigemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075828AB1803FFF0006358BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075828DB180400D7006358BE /* libOCMigemo.a in Frameworks */,
+				075828B11803FFF0006358BE /* CoreGraphics.framework in Frameworks */,
+				075828AF1803FFF0006358BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0758284F1803FC1C006358BE = {
+			isa = PBXGroup;
+			children = (
+				0758285D1803FC1C006358BE /* OCMigemo */,
+				075828711803FC1C006358BE /* OCMigemoTests */,
+				075828B31803FFF0006358BE /* OCMigemo-Example */,
+				075828E918043C0F006358BE /* Vendors */,
+				0758285A1803FC1C006358BE /* Frameworks */,
+				075828591803FC1C006358BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		075828591803FC1C006358BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				075828581803FC1C006358BE /* libOCMigemo.a */,
+				075828681803FC1C006358BE /* OCMigemoTests.xctest */,
+				075828AE1803FFF0006358BE /* OCMigemo-Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0758285A1803FC1C006358BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				075828E218041315006358BE /* libiconv.dylib */,
+				0758285B1803FC1C006358BE /* Foundation.framework */,
+				075828691803FC1C006358BE /* XCTest.framework */,
+				0758286C1803FC1C006358BE /* UIKit.framework */,
+				075828B01803FFF0006358BE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0758285D1803FC1C006358BE /* OCMigemo */ = {
+			isa = PBXGroup;
+			children = (
+				075828601803FC1C006358BE /* OCMigemo.h */,
+				075828621803FC1C006358BE /* OCMigemo.m */,
+				0758285E1803FC1C006358BE /* Supporting Files */,
+				075828E6180439B4006358BE /* NSString+Migemo.h */,
+				075828E7180439B4006358BE /* NSString+Migemo.m */,
+				07C530C01804CC6A00B13C71 /* OCMigemo.bundle */,
+			);
+			path = OCMigemo;
+			sourceTree = "<group>";
+		};
+		0758285E1803FC1C006358BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0758285F1803FC1C006358BE /* OCMigemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		075828711803FC1C006358BE /* OCMigemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				075828771803FC1C006358BE /* OCMigemoTests.m */,
+				075828721803FC1C006358BE /* Supporting Files */,
+			);
+			path = OCMigemoTests;
+			sourceTree = "<group>";
+		};
+		075828721803FC1C006358BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				075828731803FC1C006358BE /* OCMigemoTests-Info.plist */,
+				075828741803FC1C006358BE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		075828B31803FFF0006358BE /* OCMigemo-Example */ = {
+			isa = PBXGroup;
+			children = (
+				075828BC1803FFF0006358BE /* AppDelegate.h */,
+				075828BD1803FFF0006358BE /* AppDelegate.m */,
+				075828BF1803FFF0006358BE /* Images.xcassets */,
+				075828B41803FFF0006358BE /* Supporting Files */,
+			);
+			path = "OCMigemo-Example";
+			sourceTree = "<group>";
+		};
+		075828B41803FFF0006358BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				075828B51803FFF0006358BE /* OCMigemo-Example-Info.plist */,
+				075828B61803FFF0006358BE /* InfoPlist.strings */,
+				075828B91803FFF0006358BE /* main.m */,
+				075828BB1803FFF0006358BE /* OCMigemo-Example-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		075828E918043C0F006358BE /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				075828EA18043C0F006358BE /* cmigemo */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		075828EA18043C0F006358BE /* cmigemo */ = {
+			isa = PBXGroup;
+			children = (
+				0758292A18043C0F006358BE /* src */,
+			);
+			path = cmigemo;
+			sourceTree = "<group>";
+		};
+		0758292A18043C0F006358BE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0758292B18043C0F006358BE /* charset.c */,
+				0758292C18043C0F006358BE /* charset.h */,
+				0758292D18043C0F006358BE /* dbg.h */,
+				0758292F18043C0F006358BE /* filename.c */,
+				0758293018043C0F006358BE /* filename.h */,
+				0758293218043C0F006358BE /* migemo.c */,
+				0758293418043C0F006358BE /* migemo.h */,
+				0758293618043C0F006358BE /* mnode.c */,
+				0758293718043C0F006358BE /* mnode.h */,
+				0758293818043C0F006358BE /* resource.h */,
+				0758293918043C0F006358BE /* romaji.c */,
+				0758293A18043C0F006358BE /* romaji.h */,
+				0758293B18043C0F006358BE /* rxgen.c */,
+				0758293C18043C0F006358BE /* rxgen.h */,
+				0758294218043C0F006358BE /* wordbuf.c */,
+				0758294318043C0F006358BE /* wordbuf.h */,
+				0758294418043C0F006358BE /* wordlist.c */,
+				0758294518043C0F006358BE /* wordlist.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		075828571803FC1C006358BE /* OCMigemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0758287B1803FC1C006358BE /* Build configuration list for PBXNativeTarget "OCMigemo" */;
+			buildPhases = (
+				075828541803FC1C006358BE /* Sources */,
+				075828551803FC1C006358BE /* Frameworks */,
+				075828561803FC1C006358BE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCMigemo;
+			productName = OCMigemo;
+			productReference = 075828581803FC1C006358BE /* libOCMigemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		075828671803FC1C006358BE /* OCMigemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0758287E1803FC1C006358BE /* Build configuration list for PBXNativeTarget "OCMigemoTests" */;
+			buildPhases = (
+				075828641803FC1C006358BE /* Sources */,
+				075828651803FC1C006358BE /* Frameworks */,
+				075828661803FC1C006358BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0758286F1803FC1C006358BE /* PBXTargetDependency */,
+			);
+			name = OCMigemoTests;
+			productName = OCMigemoTests;
+			productReference = 075828681803FC1C006358BE /* OCMigemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		075828AD1803FFF0006358BE /* OCMigemo-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075828D31803FFF0006358BE /* Build configuration list for PBXNativeTarget "OCMigemo-Example" */;
+			buildPhases = (
+				075828AA1803FFF0006358BE /* Sources */,
+				075828AB1803FFF0006358BE /* Frameworks */,
+				075828AC1803FFF0006358BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				075828DA18040047006358BE /* PBXTargetDependency */,
+			);
+			name = "OCMigemo-Example";
+			productName = "OCMigemo-Example";
+			productReference = 075828AE1803FFF0006358BE /* OCMigemo-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		075828501803FC1C006358BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					075828671803FC1C006358BE = {
+						TestTargetID = 075828AD1803FFF0006358BE;
+					};
+				};
+			};
+			buildConfigurationList = 075828531803FC1C006358BE /* Build configuration list for PBXProject "OCMigemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0758284F1803FC1C006358BE;
+			productRefGroup = 075828591803FC1C006358BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				075828571803FC1C006358BE /* OCMigemo */,
+				075828671803FC1C006358BE /* OCMigemoTests */,
+				075828AD1803FFF0006358BE /* OCMigemo-Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		075828661803FC1C006358BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075828761803FC1C006358BE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075828AC1803FFF0006358BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075828B81803FFF0006358BE /* InfoPlist.strings in Resources */,
+				075828C01803FFF0006358BE /* Images.xcassets in Resources */,
+				07C530C21804CE2700B13C71 /* OCMigemo.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		075828541803FC1C006358BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0758296A18043C0F006358BE /* charset.c in Sources */,
+				0758296F18043C0F006358BE /* mnode.c in Sources */,
+				0758297118043C0F006358BE /* rxgen.c in Sources */,
+				0758296E18043C0F006358BE /* migemo.c in Sources */,
+				0758296C18043C0F006358BE /* filename.c in Sources */,
+				0758297518043C0F006358BE /* wordbuf.c in Sources */,
+				075828E8180439B4006358BE /* NSString+Migemo.m in Sources */,
+				075828631803FC1C006358BE /* OCMigemo.m in Sources */,
+				0758297018043C0F006358BE /* romaji.c in Sources */,
+				0758297618043C0F006358BE /* wordlist.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075828641803FC1C006358BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075828781803FC1C006358BE /* OCMigemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075828AA1803FFF0006358BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075828BE1803FFF0006358BE /* AppDelegate.m in Sources */,
+				075828BA1803FFF0006358BE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0758286F1803FC1C006358BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 075828571803FC1C006358BE /* OCMigemo */;
+			targetProxy = 0758286E1803FC1C006358BE /* PBXContainerItemProxy */;
+		};
+		075828DA18040047006358BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 075828571803FC1C006358BE /* OCMigemo */;
+			targetProxy = 075828D918040047006358BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		075828741803FC1C006358BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				075828751803FC1C006358BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		075828B61803FFF0006358BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				075828B71803FFF0006358BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		075828791803FC1C006358BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0758287A1803FC1C006358BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0758287C1803FC1C006358BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/OCMigemo.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCMigemo/OCMigemo-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0758287D1803FC1C006358BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/OCMigemo.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCMigemo/OCMigemo-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0758287F1803FC1C006358BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OCMigemo-Example.app/OCMigemo-Example";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCMigemo/OCMigemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OCMigemoTests/OCMigemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		075828801803FC1C006358BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OCMigemo-Example.app/OCMigemo-Example";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCMigemo/OCMigemo-Prefix.pch";
+				INFOPLIST_FILE = "OCMigemoTests/OCMigemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		075828D41803FFF0006358BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCMigemo-Example/OCMigemo-Example-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OCMigemo-Example/OCMigemo-Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		075828D51803FFF0006358BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCMigemo-Example/OCMigemo-Example-Prefix.pch";
+				INFOPLIST_FILE = "OCMigemo-Example/OCMigemo-Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		075828531803FC1C006358BE /* Build configuration list for PBXProject "OCMigemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075828791803FC1C006358BE /* Debug */,
+				0758287A1803FC1C006358BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0758287B1803FC1C006358BE /* Build configuration list for PBXNativeTarget "OCMigemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0758287C1803FC1C006358BE /* Debug */,
+				0758287D1803FC1C006358BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0758287E1803FC1C006358BE /* Build configuration list for PBXNativeTarget "OCMigemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0758287F1803FC1C006358BE /* Debug */,
+				075828801803FC1C006358BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		075828D31803FFF0006358BE /* Build configuration list for PBXNativeTarget "OCMigemo-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075828D41803FFF0006358BE /* Debug */,
+				075828D51803FFF0006358BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 075828501803FC1C006358BE /* Project object */;
+}
