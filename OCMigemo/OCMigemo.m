@@ -9,7 +9,9 @@
 
 #include "migemo.h"
 
-@interface OCMigemo()
+@interface OCMigemo() {
+  migemo* migemoObject;
+}
 @property(nonatomic, strong) NSString* dictPath;
 @property(nonatomic, readonly) NSString* defaultMigemoDictPath;
 @end
@@ -29,6 +31,13 @@ static NSString* kOCMigemoDefaultMigemoDictFilename = @"migemo-dict";
   return self;
 }
 
+- (void)dealloc
+{
+  if (migemoObject) {
+    migemo_close(migemoObject);
+  }
+}
+
 - (NSString *)paternWithString:(NSString *)keyword
 {
   return [self paternWithString:keyword error:nil];
@@ -36,14 +45,17 @@ static NSString* kOCMigemoDefaultMigemoDictFilename = @"migemo-dict";
 
 - (NSString *)paternWithString:(NSString *)keyword error:(NSError **)error
 {
-  NSString* path = [self userMigemoDictPath] ?: self.defaultMigemoDictPath;
-  migemo *handler = migemo_open(path.UTF8String);
-  if(!migemo_is_enable(handler)){
+  if (!migemoObject) {
+    NSString* path = [self userMigemoDictPath] ?: self.defaultMigemoDictPath;
+    migemoObject = migemo_open([path UTF8String]);
+  }
+  
+  if(!migemo_is_enable(migemoObject)){
     *error = [NSError errorWithDomain:kOCMigemoErrorDomain
                                  code:-999
                              userInfo:@{NSLocalizedFailureReasonErrorKey: NSLocalizedStringFromTable(@"Couldn't open migemo dict.", kOCMigemoErrorDomain, nil)}];
   }
-  const unsigned char* result = migemo_query(handler, (const unsigned char*)keyword.UTF8String);
+  const unsigned char* result = migemo_query(migemoObject, (const unsigned char*)keyword.UTF8String);
   return [NSString stringWithCString:(const char*)result encoding:NSShiftJISStringEncoding];
 }
 
